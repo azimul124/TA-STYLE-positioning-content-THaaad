@@ -16,8 +16,8 @@
     <link rel="stylesheet" href="assets/stylesheets/style.css" />
   </head>
   <body>
-    <header>
-      <div class="container">
+    <header class="header">
+      <div class="container clearfix">
         <a class="brand" href="#">
           <img src="assets/media/original.png" alt="Brand Logo" />
         </a>
@@ -29,40 +29,47 @@
       </div>
     </header>
     <main>
-      <article>
-        <div class="container">
-          <div>
-            <h1>This is first article.</h1>
-            <img src="assets/media/cat02.png" alt="" />
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Temporibus quia cumque, aliquam, facilis mollitia placeat nostrum
-              ipsum architecto nemo quas harum fugit minima beatae neque optio
-              voluptas alias labore? Voluptas?
-            </p>
-          </div>
-          <div>
-            <h2>This is second article.</h2>
-            <img src="assets/media/cat.png" alt="" />
+       <section class="section">
+        <div class="container clearfix">
+      <article class="col">
+        <img src="assets/media/cat02.png" alt="Cat 01" class="image" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Temporibus quia cumque, aliquam, facilis mollitia placeat nostrum
+            ipsum architecto nemo quas harum fugit minima beatae neque optio
+            voluptas alias labore? Voluptas?
+          </p>
+        </article>
+          <article class="col">
+            <img src="assets/media/cat.png" alt="Cat 02" class="image" />
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit,
               temporibus iusto! Velit distinctio deleniti illum eligendi,
               molestiae, fugit architecto aliquam blanditiis optio et
               praesentium ipsum, rem placeat quae a enim!
             </p>
-          </div>
-          <div>
-            <h3>This is third article.</h3>
-            <img src="assets/media/cat01.png" alt="" />
+
+          </article>
+          <article class="col">
+            <img src="assets/media/cat01.png" alt="cat 03" class="image"/>
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi
               dicta natus illo dolorum voluptatum nulla, maiores necessitatibus
               quo soluta, nihil quidem? Porro facilis voluptatum error eaque ab
               repellendus sunt ipsa.
             </p>
-          </div>
-        </div>
-      </article>
-    </main>
+          </article>
+          <div>
+    </section>
+     </main>
+     <footer class="footer">
+       <div class="container clearfix">
+         <small>&copy; Alt Campus</small>
+         <nav>
+          <a href="#">Facebook</a>
+          <a href="#">Instagram</a>
+         </nav>
+       </div>
+     </footer>
   </body>
 </html>
