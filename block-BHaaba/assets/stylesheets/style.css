@@ -144,3 +144,6 @@ body {
 nav {
   float: right;
 }
+img {
+  width: 120px;
+}
