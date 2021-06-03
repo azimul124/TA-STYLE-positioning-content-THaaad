@@ -1,0 +1,8 @@
+.container {
+  float: left;
+  background-color: bisque;
+  padding: 0 32px;
+}
+.nav {
+  float: right;
+}
